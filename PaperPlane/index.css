@@ -1,0 +1,25 @@
+body{
+    background-color: #000;
+}
+#plane{
+    margin:0;
+    padding:0;
+    position: fixed;
+    top:50%;
+    left:50%;
+    z-index: 1;
+    pointer-events: none;
+}
+#plane img{
+    width: 32px;
+    height:48px;
+}
+.plane-dot{
+    width:2px;
+    height:2px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    margin:0;
+    padding:0;
+}
