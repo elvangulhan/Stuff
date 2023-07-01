@@ -15,9 +15,8 @@ body{
     height:48px;
 }
 .plane-dot{
-    width:2px;
-    height:2px;
-    border-radius: 50%;
+    aspect-ratio: 1 / 4;
+    width:4px;
     position: absolute;
     background-color: #fff;
     margin:0;
